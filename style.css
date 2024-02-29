@@ -1,0 +1,111 @@
+ /* CSS reset */
+ body {
+    color: black;
+    margin: 0px;
+    padding: 0px;
+    background: url('physiotherapy-ge49ad3bde_1920.jpg');
+    font-family: 'Ballo bhai', cursive;
+}
+
+.left {
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 60px;
+    top: 20px;
+}
+
+.left img {
+    width: 136px;
+}
+
+.left div {
+    text-align: center;
+    line-height: 19px;
+    font-size: 20px;
+}
+
+.mid {
+    display: block;
+    width: 40%;
+    margin: 29px auto;
+    /* border: 2px solid green; */
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 33px;
+    display: inline-block;
+    /* border: 2px solid rgb(34, 131, 215); */
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 18px;
+}
+
+.navbar li a {
+    color: black;
+    text-decoration: none;
+    padding: 4px 3px;
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: rgb(39, 203, 236);
+}
+
+.btn {
+    font-family: 'Ballo bhai', cursive;
+    margin: 0px 9px;
+    background-color: white;
+    color: black;
+    padding: 4px 14px;
+    border: 2px solid rgb(24, 171, 34);
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(243, 168, 168);
+}
+
+.container {
+    border: 5px solid black;
+
+    margin: 86px 180px;
+    padding: 75px;
+    width: 48%;
+    border-radius: 28px;
+
+}
+
+.form-group input {
+    font-family: 'Ballo bhai', cursive;
+    text-align: center;
+    display: block;
+    width: 508px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 88%;
+    margin: 20px auto;
+}
